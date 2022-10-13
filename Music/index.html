@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music</title>
+
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    />
+
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="nav-bar.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo"><a href="index.html">
+      <img src="images/music-logoSVG.svg" alt="">
+    </a>
+  </div>
+      <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn" />
+      <ul>
+        <li><a href="#">Explorar</a></li>
+        <li><a href="#">Músicas</a></li>
+        <li><a href="#">Álbuns</a></li>
+        <li><a href="#">Playlists</a></li>
+        <li><a href="#">Rádios</a></li>
+        
+      </ul>
+    </nav>
+
+  <div id="body">
+
+    <div class="content">
+
+      <menu class="menu-responsive">
+        <img class="logo" src="images/music-logoSVG.svg" alt="">
+
+        <div class="area-busca">
+          <form class="search-container">
+            <a href="#"><img class="search-icon" src="images/search.svg" alt="" /></a>
+            <input type="text" id="search-bar" placeholder="Pesquisar..." />
+          </form>
+        </div>
+
+        <div class="links-menu">
+          <ul>
+            <li><a href="">Músicas</a></li>
+            <li><a href="">Álbuns</a></li>
+            <li><a href="">Playlists</a></li>
+            <li><a href="">Rádio</a></li>
+          </ul>
+        </div>
+
+        <div class="user">
+          <img class="foto-user" src="images/user.jpg" alt="" />
+        </div>
+      </menu>
+
+      <menu class="menu-lateral">
+        <header class="header-lateral">
+
+          <div class="logo">
+            <img src="images/music-logoSVG.svg" alt="logo">
+          </div>
+
+          <div class="links-nav">
+            <section class="links menu">
+              <ul>
+                <li><a href=""><img src="images/explorar.svg" alt="">Explorar</a></li>
+                <li><a href=""><img src="images/musicas.svg" alt="">Músicas</a></li>
+                <li><a href=""><img src="images/albuns.svg" alt="">Álbuns</a></li>
+                <li><a href=""><img src="images/playlists.svg" alt="">Playlists</a></li>
+                <li><a href=""><img src="images/radios.svg" alt="">Rádio</a></li>
+              </ul>
+            </section>
+
+            <h3>Playlists</h3>
+
+            <section class="links estilos">
+              <ul>
+                <li><a href=""><img src="images/playlists.svg" alt="">Sertanejo</a></li>
+                <li><a href=""><img src="images/playlists.svg" alt="">Funk</a></li>
+                <li><a href=""><img src="images/playlists.svg" alt="">Samba</a></li>
+                <li><a href=""><img src="images/playlists.svg" alt="">Pagode</a></li>
+                <li><a href=""><img src="images/playlists.svg" alt="">Rap</a></li>
+                <li><a href=""><img src="images/playlists.svg" alt="">MPB</a></li>
+                <li><a href=""><img src="images/playlists.svg" alt="">Internacional</a></li>
+                <li><a href=""><img src="images/playlists.svg" alt="">Eletrônica</a></li>
+
+              </ul>
+            </section>
+          </div>
+        </header>
+      </menu>
+
+      <section class="explore">
+        <aside class="search">
+          <div class="area-busca">
+            <div class="arrows">
+              <a href="#"><img src="images/arrow-left.svg" alt="Voltar" /></a>
+              <a href="#"><img src="images/arrow-right.svg" alt="Proximo" /></a>
+            </div>
+
+            <form class="search-container">
+              <a href="#"><img class="search-icon" src="images/search.svg" alt="" /></a>
+              <input type="text" id="search-bar" placeholder="Pesquisar..." />
+            </form>
+          </div>
+
+          <div class="user">
+            <img class="foto-user" src="images/user.jpg" alt="" />
+            <h3>Iasmim</h3>
+          </div>
+        </aside>
+
+        <aside class="banner">
+          <div class="new-album">
+            <div class="info-banner">
+              <h2 class="subtitle">Novo álbum:</h2>
+              <h1>Coldplay</h1>
+
+              <a href="#">Ouvir agora</a>
+            </div>
+          </div>
+        </aside>
+
+        <h2 class="subtitle margin-h2">Playlists mais curtidas:</h2>
+
+        <aside class="albuns">
+          <div class="cards-albuns">
+
+            <a href="#">
+              <div class="album">
+                <img src="images/capa1.png" alt="">
+                </span>
+                <span class="description">
+                  <h3>Decade</h3>
+                  <h4>120 músicas</h4>
+                  </img>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="album">
+                <img src="images/capa2.png" alt="">
+                <span class="description">
+                  <h3>Listen to this</h3>
+                  <h4>200 músicas</h4>
+                </span>
+                </img>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="album">
+                <img src="images/capa3.png" alt="">
+                <span class="description">
+                  <h3>Creative</h3>
+                  <h4>214 músicas</h4>
+                </span>
+                </img>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="album">
+                <img src="images/capa4.png" alt="">
+                <span class="description">
+                  <h3>Neon</h3>
+                  <h4>260 músicas</h4>
+                </span>
+                </img>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="album">
+                <img src="images/capa5.png" alt="">
+                <span class="description">
+                  <h3>Rainbow</h3>
+                  <h4>234 músicas</h4>
+                </span>
+                </img>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="album">
+                <img src="images/capa6.png" alt="">
+                <span class="description">
+                  <h3>Mania</h3>
+                  <h4>168 músicas</h4>
+                </span>
+                </img>
+              </div>
+            </a>
+
+
+          </div>
+        </aside>
+
+        <h2 class="subtitle margin-h2">Artistas do momento:</h2>
+
+        <aside class="artistas">
+          <div class="cards-artistas">
+
+            <a href="#">
+              <div class="artista">
+                <img src="images/bruno-mars.png" alt="">
+                <h3>Bruno Mars</h3>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="artista">
+                <img src="images/matheus-kauan.png" alt="">
+                <h3>Matheus & Kauan</h3>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="artista">
+                <img src="images/coldplay.png" alt="">
+                <h3>Coldplay</h3>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="artista">
+                <img src="images/jorge-mateus.png" alt="">
+                <h3>Jorge & Mateus</h3>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="artista">
+                <img src="images/ed-sheeran.png" alt="">
+                <h3>Ed Sheeran</h3>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="artista">
+                <img src="images/maiara-maraisa.png" alt="">
+                <h3>Maiara & Maraisa</h3>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="artista">
+                <img src="images/luisa-sonza.png" alt="">
+                <h3>Luísa Sonza</h3>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="artista">
+                <img src="images/shawn-mendes.png" alt="">
+                <h3>Shawn Mendes</h3>
+              </div>
+            </a>
+
+
+          </div>
+        </aside>
+
+        <aside class="para-voce">
+          <div class="top-musicas">
+
+            <h2 class="subtitle">Top 10 músicas da semana:</h2>
+
+            <div class="musicas">
+              <div class="musica">
+                <h1> <span>01</span> Eu Gosto Assim</h1>
+                <h2 class="cantor">Gustavo Mioto, Mari Fernandez</h2>
+                <h2 class="tempo">2:29</h2>
+                <a href="#"><img src="images/play.svg" alt=""></a>
+              </div>
+
+              <div class="musica">
+                <h1> <span>02</span> Pipoco</h1>
+                <h2 class="cantor">Ana Catela</h2>
+                <h2 class="tempo">3:14</h2>
+                <a href="#"><img src="images/play.svg" alt=""></a>
+              </div>
+
+              <div class="musica">
+                <h1> <span>03</span> Haja Colírio</h1>
+                <h2 class="cantor">Guilherme & Benuto, Hugo & Guilherme</h2>
+                <h2 class="tempo">2:53</h2>
+                <a href="#"><img src="images/play.svg" alt=""></a>
+              </div>
+              
+              <div class="musica">
+                <h1> <span>04</span> Abalo Emocional</h1>
+                <h2 class="cantor">Luan Santana</h2>
+                <h2 class="tempo">2:33</h2>
+                <a href="#"><img src="images/play.svg" alt=""></a>
+              </div>
+
+              <div class="musica">
+                <h1> <span>05</span> Sentadona (Remix)</h1>
+                <h2 class="cantor">Luísa Sonza</h2>
+                <h2 class="tempo">2:05</h2>
+                <a href="#"><img src="images/play.svg" alt=""></a>
+              </div>
+
+              <div class="musica">
+                <h1> <span>06</span> Rude</h1>
+                <h2 class="cantor">MAGIC!</h2>
+                <h2 class="tempo">3:45</h2>
+                <a href="#"><img src="images/play.svg" alt=""></a>
+              </div>
+
+              <div class="musica">
+                <h1> <span>07</span> Atlantis</h1>
+                <h2 class="cantor">Seafret</h2>
+                <h2 class="tempo">3:49</h2>
+                <a href="#"><img src="images/play.svg" alt=""></a>
+              </div>
+
+              <div class="musica">
+                <h1> <span>08</span> Tudo Me Lembra Você</h1>
+                <h2 class="cantor">Vitor Kley</h2>
+                <h2 class="tempo">2:56</h2>
+                <a href="#"><img src="images/play.svg" alt=""></a>
+              </div>
+
+              <div class="musica">
+                <h1> <span>09</span> Counting Stars</h1>
+                <h2 class="cantor">OneRepublic</h2>
+                <h2 class="tempo">4:17</h2>
+                <a href="#"><img src="images/play.svg" alt=""></a>
+              </div>
+
+              <div class="musica">
+                <h1> <span>10</span> Viva La Vida</h1>
+                <h2 class="cantor">Coldplay</h2>
+                <h2 class="tempo">4:02</h2>
+                <a href="#"><img src="images/play.svg" alt=""></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="for-you">
+
+            <h2 class="subtitle">Para você:</h2>
+
+            <div class="boxes-foryou">
+              
+              <div class="box">
+                <img src="images/Frame 1.png" alt="">
+                <div class="box-overlay">
+                  <img src="images/play.svg" alt="">
+                </div>
+              </div>
+              
+              <div class="box">
+                <img src="images/Frame 2.png" alt="">
+                <div class="box-overlay">
+                  <img src="images/play.svg" alt="">
+                </div>
+              </div>
+              
+              <div class="box">
+                <img src="images/Frame 3.png" alt="">
+                <div class="box-overlay">
+                  <img src="images/play.svg" alt="">
+                </div>
+              </div>
+              
+              <div class="box">
+                <img src="images/Frame 4.png" alt="">
+                <div class="box-overlay">
+                  <img src="images/play.svg" alt="">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </aside>
+      </section>
+    </div>
+
+
+
+    <footer>
+      <div class="sections musica">
+        <img src="images/musica-BrunoMars.jpg" alt="">
+        <div class="song">
+          <h2>When I Was Your Man</h2>
+          <span>Bruno Mars</span>
+        </div>
+
+      </div>
+
+      <div class="sections-2">
+
+        <div class="tempo-musica">
+          <span>0:00</span>
+          <hr>
+          <span>3:33</span>
+        </div>
+
+        <div class="panel">
+          <a href="#"><img src="images/shuffle.svg" alt=""></a>
+          <a href="#"><img src="images/skip_previous.svg" alt=""></a>
+          <a href="#" class="play"><img src="images/play.svg" alt=""></a>
+          <a href="#"><img src="images/skip_next.svg" alt=""></a>
+          <a href="#"><img src="images/repeat.svg" alt=""></a>
+        </div>
+       
+      </div>
+
+      <div class="sections volume">
+        <img src="images/volume.svg" alt="">
+        <hr>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    $(".icon").click(function () {
+      $(".close").toggleClass("cancel");
+    });
+  </script>
+</body>
+
+</html>

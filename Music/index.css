@@ -1,0 +1,610 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0e1638;
+}
+
+.content {
+  display: flex;
+}
+
+.content .menu-lateral {
+  background: #080e27;
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  display: flex;
+  align-items: center;
+}
+
+.content .menu-lateral .menu-playlist h4 {
+  padding: 15px 0;
+  font-weight: 600;
+  font-size: 0.9em;
+  color: #fff;
+  opacity: 80%;
+}
+
+.content .menu-lateral .menu-playlist ul {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+.content .menu-lateral .menu-playlist ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  opacity: 60%;
+  transition: 0.2s;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.content .menu-lateral .menu-playlist ul li img {
+  margin-right: 10px;
+  width: 20px;
+}
+
+.content .menu-lateral .menu-playlist ul li a:hover {
+  opacity: 100%;
+}
+
+/*Cabeçalho*/
+
+.content .explore {
+  width: 100%;
+}
+
+.content .explore .search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 30px;
+}
+
+.content .explore .search .arrows a {
+  opacity: 50%;
+  transition: 0.2s;
+}
+
+.content .explore .search .arrows a:hover {
+  opacity: 100%;
+}
+
+.content .explore .search .arrows img {
+  width: 30px;
+}
+
+.content .explore .search .user {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.content .explore .search .user .foto-user {
+  width: 40px;
+  border-radius: 50%;
+  border: solid 1.5px #6b7ab7;
+}
+
+.content .explore .search .user h3 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+/*Barra de pesquisa*/
+
+.content .explore .search .search-container {
+  display: flex;
+  padding: 7px 15px;
+  background: none;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 40px;
+}
+
+.content .explore a .search-icon {
+  width: 25px;
+  display: flex;
+}
+
+.content .explore .search .area-busca {
+  display: flex;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.content .explore .search input {
+  border: none;
+  background: none;
+  display: flex;
+  color: #fff;
+  margin: 5px;
+}
+
+.content .explore .search input:focus {
+  outline: 0;
+}
+
+.content .explore .search input::placeholder {
+  color: #6b7ab7;
+  font-size: 1.2em;
+  opacity: 70%;
+}
+
+/*Banner*/
+
+.content .explore .banner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.content .explore .banner .new-album {
+  width: 100%;
+  height: 300px;
+  background-image: url(images/banner.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+.content .explore .banner .new-album .info-banner {
+  margin-left: 120px;
+  display: block;
+}
+
+.subtitle {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.content .explore .banner .new-album h1 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 4em;
+  margin-top: -10px;
+  padding-bottom: 30px;
+}
+
+.content .explore .banner .new-album a {
+  padding: 10px 20px;
+  border: solid 1px #00e5ff;
+  text-decoration: none;
+  color: #00e5ff;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+
+.content .explore .banner .new-album a:hover {
+  background: #00e5ff;
+  color: #0e1638;
+}
+
+/*Albuns*/
+
+.content .explore .margin-h2 {
+  margin: 40px 80px 20px;
+}
+
+.content .explore .albuns {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content .explore .albuns .cards-albuns {
+  display: flex;
+  margin: 20px;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.content .explore .albuns .cards-albuns a {
+  text-decoration: none;
+}
+
+.content .explore .albuns .cards-albuns .album h3 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.1em;
+  margin-top: 5px;
+}
+
+.content .explore .albuns .cards-albuns .album h4 {
+  color: #6b7ab7;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+.content .explore .albuns .album img {
+  width: 170px;
+  border-radius: 10px;
+}
+
+.content .explore .artistas {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content .explore .artistas .cards-artistas {
+  display: flex;
+  margin: 40px;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.content .explore .artistas .cards-artistas a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+.content .explore .artistas .cards-artistas .artista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.content .explore .artistas .cards-artistas .artista img {
+  width: 100px;
+  border-radius: 50%;
+  border: solid 2px#6b7ab7;
+}
+
+/*Área - for you*/
+
+.content .explore .para-voce {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 90px;
+  flex-wrap: wrap;
+}
+
+.content .explore .para-voce .top-musicas h2 {
+  margin-left: 70px;
+}
+
+.content .explore .para-voce .top-musicas .musicas {
+  padding: 30px 50px;
+}
+
+.content .explore .para-voce .top-musicas .musicas .musica h1 {
+  color: #dee4ff;
+  font-size: 1em;
+  font-weight: 500;
+  width: 40%;
+}
+
+.content .explore .para-voce .top-musicas .musicas .musica h1 span {
+  color: #00e5ff;
+  font-size: 1em;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.content .explore .para-voce .top-musicas .musicas .musica h2 {
+  color: #6b7ab7;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.content .explore .para-voce .top-musicas .musicas .musica .cantor {
+  width: 50%;
+}
+
+.content .explore .para-voce .top-musicas .musicas .musica .tempo {
+  width: 15%;
+}
+
+.content .explore .para-voce .top-musicas .musicas .musica a img {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  opacity: 60%;
+}
+
+.content .explore .para-voce .top-musicas .musicas .musica a img:hover {
+  opacity: 100%;
+}
+
+.content .explore .para-voce .top-musicas .musicas .musica,
+.info-musica {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.content .explore .para-voce .top-musicas .musicas .musica:hover {
+  background: rgba(107, 122, 183, 0.1);
+}
+
+.content .explore .para-voce .top-musicas {
+  width: 70%;
+  padding: 10px 20px;
+}
+
+.content .explore .para-voce .for-you {
+  width: 30%;
+  padding: 10px 20px;
+}
+
+.content .explore .para-voce .for-you h2 {
+  margin: 0 40px 10px;
+}
+
+.content .explore .para-voce .for-you .boxes-foryou {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .explore .para-voce .for-you .boxes-foryou .box {
+  margin: 10px;
+  position: relative;
+}
+
+.content .explore .para-voce .for-you .boxes-foryou .box img {
+  display: flex;
+  width: 130px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.content .explore .para-voce .for-you .boxes-foryou .box .box-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 8px;
+  padding: 5px;
+  background: rgba(8, 14, 39, 0.5);
+  border-radius: 11px;
+}
+
+.content .explore .para-voce .for-you .boxes-foryou .box .box-overlay img {
+  width: 20px;
+}
+
+/*footer - player de musica*/
+
+footer {
+  display: flex;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  max-height: 80px;
+  padding: 10px 30px;
+  justify-content: space-between;
+
+  /*efeito vidro*/
+
+  background: rgba(8, 14, 39, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(107, 122, 183, 0.1);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13px);
+}
+
+footer .sections {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .sections-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .musica .song {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer .musica .song h2 {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+footer .musica .song span {
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 300;
+  opacity: 40%;
+}
+
+footer .musica img {
+  width: 60px;
+}
+
+footer .sections-2 .panel {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 7px;
+}
+
+footer .panel img {
+  width: 25px;
+}
+
+footer .tempo-musica {
+  display: flex;
+  align-items: center;
+}
+
+footer .tempo-musica span {
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+footer .tempo-musica hr {
+  border: solid 0.1px #fff;
+  background: #fff;
+  width: 300px;
+  margin: 0 15px;
+}
+
+footer .volume {
+  display: flex;
+  align-items: center;
+}
+
+footer .volume hr {
+  border: solid 0.1px #fff;
+  background: #fff;
+  width: 100px;
+  margin: 0 10px;
+}
+
+footer .volume img {
+  width: 25px;
+}
+
+.footer-mobile {
+  display: none;
+}
+
+/*Responsividade*/
+
+@media only screen and (max-width: 700px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content .menu-lateral {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .menu-playlist {
+    display: none;
+  }
+
+  .content .explore .search .user,
+  .arrows {
+    display: none;
+  }
+
+  .content .explore .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content .explore .search .search-container {
+    border: solid 1px #6b7ab7;
+    border-radius: 50px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .content .menu-lateral {
+    width: 100%;
+  }
+
+  footer .sections .song h2 {
+    font-size: 12px;
+  }
+
+  footer .volume, footer .sections-2 .tempo-musica {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+  }
+
+  footer .sections-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .content .explore .para-voce {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content .explore .para-voce .top-musicas {
+    width: 100%;
+    padding: 0;
+  }
+
+  .content .explore .para-voce .top-musicas h2 {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .content .explore .para-voce .top-musicas .musicas {
+    padding: 50px 10px 30px;
+  }
+
+  .content .explore .margin-h2 {
+    margin: 50px 0 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .content .explore .para-voce .top-musicas .musicas .musica .tempo {
+    display: none;
+  }
+
+  .content .explore .para-voce .top-musicas .musicas .musica h1 {
+    width: 60%;
+  }
+
+  .content .explore .para-voce .top-musicas .musicas .musica h2 {
+    width: 100%;
+  }
+
+  .content .explore .para-voce .top-musicas .musicas .musica .cantor {
+    text-align: center;
+    width: 40%;
+  }
+
+  .content .explore .para-voce .for-you {
+    width: 100%;
+  }
+
+  .content .explore .para-voce .for-you h2 {
+    display: flex;
+    justify-content: center;
+  }
+}
